@@ -1,0 +1,26 @@
+h1 {
+
+}
+a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+  text-align: center;
+} 
+
+body{
+	background-image: url(https://media2.giphy.com/media/hxyGuKThbbxiE/giphy.gif);
+}
+p {
+  color: red;
+  text-align: center;
+  border-left: 6px solid red;
+  background-color: white;
+}

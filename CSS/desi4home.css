@@ -1,0 +1,44 @@
+h1 {
+
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: left; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: white;
+  text-align: left;
+  color: black;
+} 
+
+body{
+  background-image: url(https://images.pond5.com/subtle-gradient-moving-shapes-background-footage-089496722_prevstill.jpeg);
+  margin:0;
+  top:-10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+}
+
+li {
+  float: right;
+}
+
+p {
+  color: red;
+  text-align: center;
+  border-left: 6px solid red;
+  background-color: white;
+}
