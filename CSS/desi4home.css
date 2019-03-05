@@ -2,6 +2,17 @@ h1 {
   color: white;
 }
 
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
 a:link, a:visited, .droptn {
   background-color: black;
   color: white;
@@ -23,7 +34,7 @@ ul {
   padding: 0;
   background-color: black;
   width: 100%;
-  position: fixed;
+  position: fixed;  
   list-style-type: none;
 }
 
