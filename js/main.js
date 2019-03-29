@@ -1,6 +1,6 @@
 function welcomeUser(){
-	var name = prompt("Enter your name: ");
-	alert("Welcome "+ name"!");
+	var name = prompt("Enter the password: ");
+	document.write("Code "+ name + " denied!");
 }
 function move() {
   var elem = document.getElementById("myBar");   

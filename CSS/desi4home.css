@@ -28,19 +28,22 @@ a:hover, .dropdown:hover .dropbtn{
   color: black;
 } 
 
-ul {
+nav, ul {
+  opacity: 0.8;
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: black;
   width: 100%;
-  position: fixed;  
+  position: absolute;
+  top: 0;
   list-style-type: none;
 }
 
 body{
   background-image: url(https://images.pond5.com/subtle-gradient-moving-shapes-background-footage-089496722_prevstill.jpeg);
   margin:0;
+  margin-top: -10;
 }
 
 li {
@@ -87,4 +90,12 @@ p {
   text-align: center;
   border-left: 6px solid red;
   background-color: white;
+}
+
+div.ben{
+  height:100000px;
+  width:1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: black;
 }
