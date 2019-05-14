@@ -13,7 +13,7 @@ h1 {
   background-color: #4CAF50;
 }
 
-a:link, a:visited, .droptn {
+a:link, a:visited, .dropbtn {
   background-color: black;
   color: white;
   padding: 14px 25px;
@@ -49,6 +49,7 @@ body{
 li {
   float: right;
   text-decoration: none;
+  font-size:25px;
 }
 
 li.dropdown {
@@ -56,16 +57,15 @@ li.dropdown {
 }
 
 .dropdown-content {
+  right:0;
   display: none;
   position: absolute;
-  background-color: white;
-  color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a:link {
   color: black;
   background-color: white;
   padding: 12px 16px;
@@ -74,28 +74,84 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:link:hover {
 	background-color: black
 	color: white;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: black
-  color: white;
 }
 
-p {
-  color: red;
+div.hdrScrtch1 {
+  color: orange;
   text-align: center;
-  border-left: 6px solid red;
+  border-left: 10px solid blue;
   background-color: white;
+  width:475px;
+  font-size:23px;
+  height: 25px;
+}
+
+div.hdrScrtch2 {
+  color: orange;
+  text-align: center;
+  border-left: 10px solid blue;
+  background-color: white;
+  width:475px;
+  font-size:23px;
+  height: 25px;
+  margin-top: 650px;
 }
 
 div.ben{
-  height:100000px;
+  border-radius: 35px;
   width:1200px;
   margin: 0 auto;
   margin-top: 150px;
   background-color: black;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+div.Scrtch{
+  float:left;
+  width:40%;
+  padding-right:50px;
+  padding-bottom: 50px;
+  padding-top:25px;
+}
+div.text p{
+  float:left;
+  width:600px;
+  height:600px;
+  padding-right:50px;
+  text-align: justify;
+  color:white;
+  border:10px;
+  border-color:solid white;
+  border-radius: 15px;
+  font-size: 30px;
+}
+div.Scrtch2 {
+  padding-top:10px;
+}
+
+div.polaroid {
+  float:right;
+  width: 30%;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin-bottom: 25px;
+  border-radius: 7px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+form.form{
+  color:white;
+  font-size: 20px;
 }
