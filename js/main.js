@@ -21,15 +21,43 @@ function refreshMeme(){
 function piglatin(){
   console.log("Enter your phrase");
   var a = prompt(">");
+  console.log(a);
   var newa = a.split(" ");
+  console.log(newa);
   var y = "ay";
+  console.log(y);
   var newb = "No u";
-  for (i=0;i=newa.length;i++){
+  console.log(newb);
+  var x = "No u";
+  console.log(x);
+  var newesta = "Output =";
+  for (i=0;i<newa.length;i++){
     if (newa[i].length > 3){
-      newa[i].charAt(0) = x;
-      newa[i].slice(1) = newb;
-      newa = newb + x + y;
       console.log(newa);
+      x = newa[i].charAt(0);
+      console.log(x);
+      newb = newa[i].slice(1);
+      console.log(newb);
+      newc = newb + x + y;
+      console.log(newc);
+      newesta = newesta + " " + newc;
     }
+    else{
+      console.log(newa[i]);
+      newesta = newesta + " " + newa[i];
+    }
+  }
+  alert(newesta)
+}
+function firstCypher(){
+  x = prompt("What is your plaintext?")
+  nx = x.split(" ")
+  for(j=0;j>nx.length;j++){
+    nx[j]=nxs;
+    for(i=nxs.length;i>0;i--){
+      w=nxs.charAt(i);
+      nys += w
+    }
+    ny.push(nys);
   }
 }
