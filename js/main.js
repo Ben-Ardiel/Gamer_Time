@@ -50,14 +50,18 @@ function piglatin(){
   alert(newesta)
 }
 function firstCypher(){
-  x = prompt("What is your plaintext?")
-  nx = x.split(" ")
-  for(j=0;j>nx.length;j++){
-    nx[j]=nxs;
-    for(i=nxs.length;i>0;i--){
-      w=nxs.charAt(i);
-      nys += w
+  var x = prompt("What is your plaintext?");
+  var nx = x.split(" ");
+  var nys =""
+  console.log(nx);
+  for(var j=0;j<nx.length;j++){
+    console.log(j);
+    for(var i=nx[j].length;i>-1;i--){
+      console.log(i);
+      nys = nys + nx[j].charAt(i);
+      console.log(nys);
     }
-    ny.push(nys);
+    nys = nys + " ";
   }
+  alert(nys);
 }
