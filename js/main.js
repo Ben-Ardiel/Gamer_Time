@@ -64,4 +64,6 @@ function firstCypher(){
     nys = nys + " ";
   }
   alert(nys);
+  PhL=nys.length
+  
 }
