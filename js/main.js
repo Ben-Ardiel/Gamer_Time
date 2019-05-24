@@ -64,6 +64,49 @@ function firstCypher(){
     nys = nys + " ";
   }
   alert(nys);
-  PhL=nys.length
-  
+  var fin=""
+  var gametime = 0
+  var z=nys.length;
+  var zex=z%3;
+  var zig=Math.ceiling(z/3)
+  var ran=Math.floor(Math.random()*70)
+  var aph="a";
+  var bph="b";
+  var cph="c";
+  var dph="d";
+  var eph="e";
+  var fph="f";
+  var gph="g";
+  var hph="h";
+  var iph="i";
+  var jph="j";
+  var kph="k";
+  var lph="l";
+  var mph="m";
+  var nph="n";
+  var oph="o";
+  var pph="p";
+  var qph="q";
+  var rph="r";
+  var sph="s";
+  var tph="t";
+  var uph="u";
+  var vph="v";
+  var wph="w";
+  var xph="x";
+  var yph="y";
+  var zph="z";
+  var _ph=" ";
+  var .ph=".";
+  var exph="!";
+  var quph="?";
+  var coph=",";
+  if (zex==1){
+    nys += "  ";
+    z+= 2;
+  }
+  else if (zex==2){
+    nys +=" ";
+    z+= 1;
+  }
 }
