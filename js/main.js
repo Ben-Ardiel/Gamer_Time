@@ -220,3 +220,12 @@ function firstCypher(){
   console.log(z);
   alert(fin);
 }
+function firstDecrypt(){
+  var fin = prompt("What is your cypher text?")
+  var arkey = fin.split(" ")
+  var nys = arkey[0]
+  var key = arkey[1]
+  var knum = (key/3)*2
+  var crnum = key*2
+  
+}
