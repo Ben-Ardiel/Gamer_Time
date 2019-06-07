@@ -218,14 +218,19 @@ function firstCypher(){
   }
   fin+=gametime+' '+z;
   console.log(z);
-  alert(fin);
+  document.getElementById("ans").innerHTML = fin;
 }
 function firstDecrypt(){
-  var fin = prompt("What is your cypher text?")
-  var arkey = fin.split(" ")
-  var nys = arkey[0]
-  var key = arkey[1]
-  var knum = (key/3)*2
-  var crnum = key*2
-  
+  var fin = prompt("What is your cypher text?");
+  var arkey = fin.split(" ");
+  var nys = arkey[0];
+  var key = arkey[1];
+  var knum = (key/3)*2;
+  var crnum = key*2;
+  console.log("Key: "key", knum: "knum", crnum: "crnum".");
+  var nxs = nys.split(0, crnum);
+  var nxbs = nys.split(crnum+2, crnum+2+knum);
+  for(i=0; i<knum; i++){
+    
+  }
 }

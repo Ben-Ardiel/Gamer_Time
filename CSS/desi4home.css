@@ -123,6 +123,9 @@ div.Scrtch{
   padding-bottom: 50px;
   padding-top:25px;
 }
+iframe.scratch-gaméz{
+  overflow: hidden;
+}
 div.text p{
   float:left;
   width:600px;
@@ -211,6 +214,19 @@ form.form{
 .button5{
   background-color: white;
   border: 5px solid blue;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+.button6{
+  background-color: white;
+  border: 5px solid purple;
   border-radius: 10px;
   color: black;
   padding: 15px 32px;
