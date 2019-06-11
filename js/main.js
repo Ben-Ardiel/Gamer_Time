@@ -229,8 +229,12 @@ function firstDecrypt(){
   var crnum = key*2;
   console.log("Key: "key", knum: "knum", crnum: "crnum".");
   var nxs = nys.split(0, crnum);
-  var nxbs = nys.split(crnum+2, crnum+2+knum);
+  var nxbs = nys.split(crnum+2, crnum+knum+2);
   for(i=0; i<knum; i++){
-    
+    for(j=0; j<3; j++){
+      for(g=0; g<2; g++){
+        
+      }
+    }
   }
 }
